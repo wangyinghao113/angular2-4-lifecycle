@@ -39,7 +39,7 @@ ngAfterViewInit()和每次ngAfterContentChecked()之后调用。
 
 ## 实践例子：
 
-import { Component, OnInit, AfterViewInit, OnDestroy... } from '@angular/core';
+import { Component, OnInit, AfterViewInit, OnDestroy} from '@angular/core';
 
 export class app implements OnInit,AfterViewInit ,OnDestroy{
   constructor() { }//构造函数
